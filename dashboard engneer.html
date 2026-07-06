@@ -1,0 +1,12 @@
+create table lessons (
+      id bigint generated always as identity primary key,
+        title text not null,
+          content_type text not null,
+            subject text not null,
+              grade_level text not null,
+                description text,
+                  file_url text not null,
+                    created_at timestamp with time zone default now() not null
+                    );
+                    
+)
