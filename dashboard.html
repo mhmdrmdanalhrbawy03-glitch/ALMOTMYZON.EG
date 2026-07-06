@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>لوحة الطالب</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.dashboard{
+width:90%;
+max-width:1200px;
+margin:40px auto;
+}
+
+.dashboard h1{
+text-align:center;
+color:#1565c0;
+margin-bottom:40px;
+}
+
+.boxes{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.box{
+background:#fff;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-10px);
+}
+
+.box h2{
+margin-bottom:20px;
+color:#1565c0;
+}
+
+.box a{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#1565c0;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.box a:hover{
+background:#0d47a1;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+🎓 منصة تانية بكالوريا
+
+</div>
+
+<nav>
+
+<a href="index.html">الرئيسية</a>
+
+<a href="subjects.html">المواد</a>
+
+<a href="videos.html">الفيديوهات</a>
+
+<a href="pdf.html">الملازم</a>
+
+<a href="exams.html">الاختبارات</a>
+
+</nav>
+
+</header>
+
+<div class="dashboard">
+
+<h1>
+
+👨‍🎓 لوحة الطالب
+
+</h1>
+
+<div class="boxes">
+
+<div class="box">
+
+<h2>📚 المواد</h2>
+
+<a href="subjects.html">
+
+فتح
+
+</a>
+
+</div>
+
+<div class="box">
+
+<h2>🎥 الفيديوهات</h2>
+
+<a href="videos.html">
+
+فتح
+
+</a>
+
+</div>
+
+<div class="box">
+
+<h2>📄 الملازم</h2>
+
+<a href="pdf.html">
+
+فتح
+
+</a>
+
+</div>
+
+<div class="box">
+
+<h2>📝 الاختبارات</h2>
+
+<a href="exams.html">
+
+فتح
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+
+© جميع الحقوق محفوظة
+
+</p>
+
+<p>
+
+تصميم وتطوير
+
+<b style="color:#FFD700;">
+
+محمد رمضان الحرباوي
+
+</b>
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
